@@ -1,0 +1,63 @@
+:root {
+    --background-color-1: #6320ee;
+    --background-color-2: #cad5ca;
+    --accent-color-1: #211a1d;
+    --accent-color-2: #f8f0fb;
+    --accent-color-3: #8075ff;
+}
+
+/* css for the header*/
+
+/* css for the nav bar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border: 1px solid blueviolet;
+    background-color: var(--background-color-1);
+    color: whitesmoke;
+}
+
+/* navigation tabs*/
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+/* css for the main body*/
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: var(--accent-color-1);
+
+
+}
+
+/* css for the h1 or main content*/
+h1 {
+    grid-column: 1/2;
+    padding: 300px;
+    background-color: var(--accent-color-2);
+    border: 3px solid var(--accent-color-1)
+}
+
+/* css for the aside content*/
+aside {
+    grid-column: 2/3;
+    padding: 150px;
+    margin: 20px;
+    background-color: var(--background-color-2);
+    border: 3px solid var(--accent-color-1);
+    font-weight: 200;
+
+}
+
+/* css for the footer*/
+footer {
+    background-color: var(--accent-color-3);
+    padding: 40px;
+    text-align: center;
+    font-weight: 400;
+    color: whitesmoke;
+}
