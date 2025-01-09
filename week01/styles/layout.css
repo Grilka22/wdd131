@@ -27,7 +27,7 @@ a {
 
 /* css for the main body*/
 main {
-    display: flex;
+    display: grid;
     grid-template-columns: 2fr 1fr;
     background-color: var(--accent-color-1);
 
