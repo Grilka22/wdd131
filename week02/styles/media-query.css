@@ -6,7 +6,7 @@ header,
 main,
 footer {
     max-width: 640px;
-    border: 1px solid #bbb;
+    border: 1px solid black;
     margin: 1rem auto;
     padding: 1rem;
     background-color: #8075ff;
@@ -15,6 +15,7 @@ footer {
 main {
     display: grid;
     grid-template-columns: 1fr;
+    align-items: center;
     grid-gap: 1rem;
 }
 
